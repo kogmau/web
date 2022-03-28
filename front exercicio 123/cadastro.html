@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cadastro</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <form onkeydown="validationText()" name="form1" method="post">
+        Nome
+            <input id="nome" name="nome" type="text"> <br>
+        Email:
+            <input id="email" name="email" type="text"> <br> 
+        Senha
+            <input id="senha" name="senha" type="password"> <br>
+        Repetir Senha
+            <input  id="rpsenha" name="rpsenha" type="password" > <br>
+        <p id="txtWarning"></p>
+            <input  type="submit"  onclick="validarsenha()">
+    </form>
+    <script src="JS-S.js"></script>
+
+</body>
+</html>
